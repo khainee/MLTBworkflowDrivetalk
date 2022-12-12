@@ -1,9 +1,8 @@
 # Usage
  - ပထမဆုံး ဒီ repo ကို fork ပါ
  - မိမိ fork repo > setting > secrets > actions > new repo secret ထိနှိပ်ပြီး 
- - BOT_TOKEN 
- - OWNER_ID
- - GDRIVE_ID တစ်ခုချင်းကို name နေရာထား value တွင် Botfather, Rose, Gdrive folder id ထည့်
+ - sample config က repo မှာပါတယ်အဲ့ဒါကို gist.github.com နဲ့ link လုပ်
+ - `CONFIG_FILE_URL`ထည့် 
  - repo ရဲ့ Actions နေရာကိုနှိပ်
  - 🇲🇲 MLTB_Drivetalk ကိုထပ်နှိပ်
  - အပြာစာတန်းဘေးက Run Workflow ⬇ကိုနှိပ်
