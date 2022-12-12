@@ -8,6 +8,6 @@ jobs:
     steps:
       - uses: actions/checkout@main
       - name: Create Image
-        run: docker pull anasaty17/mltb:latest 
+        run: docker pull khainezayye/mltb:latest 
       - name: Run Image
-        run: docker run --env BOT_TOKEN=${{ secrets.BOT_TOKEN }} --env GDRIVE_ID=${{ secrets.GDRIVE_ID }} --env OWNER_ID=${{ secrets.OWNER_ID }} anasaty17/mltb:latest 
+        run: docker run --env CONFIG_FILE_URL=${{ secrets.CONFIG_FILE_URL }} khainezayye/mltb:latest 
