@@ -10,4 +10,4 @@ jobs:
       - name: Create Image
         run: docker pull khainezayye/mltb:latest 
       - name: Run Image
-        run: docker run --env CONFIG_FILE_URL=${{ secrets.CONFIG_FILE_URL }} khainezayye/mltb:latest 
+        run: docker run --env CONFIG_FILE_URL=${{ secrets.CONFIG_FILE_URL }} --env TOKEN_PICKLE_URL=${{ secrets.TOKEN_PICKLE_URL }} khainezayye/mltb:latest 
